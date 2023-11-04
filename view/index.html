@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href=
+"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+<link rel="stylesheet" href="/Login-php-javascripte-mysql/view/index.css">
+  </head>
+  <body>
+    <div class="login-main-div">
+      <div id="message" style="text-align: center; display:none;" class="alert alert-danger" role="alert">
+        Wrong username or password
+      </div>
+      <h1 class="title-cpanel"> Cpanel </h1>
+      <div class="div-input-style">
+        <div class="test">
+      <input  id="user" class="usrName" onmouseover="reset()" placeholder="Username" type="text" >
+      <span class="prefix"><i id="inputusericon" class="bi bi-person-fill"></i></span>
+        </div>
+        <div class="test">
+      <input id="pass" id="" class="password" onmouseover="reset()" placeholder="Password" type="password" >
+      <span class="prefix"><i class="bi bi-key-fill"></i></span>
+    </div>
+      </div>
+      <div  class="test2">
+     
+      <button id="bu" class="login-button"  onmouseover="inputTextValidation()" onclick="loging()">Login</button>
+      <i id="smile"class="bi bi-emoji-smile-fill"></i>
+      <i id="frown"class="bi bi-emoji-frown-fill"></i>
+    </div>
+       </div>
+ 
+       <script src="/Login-php-javascripte-mysql/view/validation.js"></script>
+  </body>
+</html>
+
